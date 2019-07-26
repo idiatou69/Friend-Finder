@@ -1,9 +1,9 @@
 
 
-var waitingArray=[
+var friends=[
 {
-  "name":"Ahmed",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "ame":"Ahmed",
+  "photo":"https://media.licd.com/mpr/mpr/shrikp_400_400/p/6/005/064/1bd/3435aa3.jpg",
   "scores":[
       5,
       1,
@@ -18,8 +18,120 @@ var waitingArray=[
     ]
 },
 {
-  "name":"marie",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "ame":"zizou",
+  "photo":"https://media.licd.com/mpr/mpr/shrikp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "scores":[
+      3,
+      2,
+      6,
+      6,
+      3,
+      1,
+      4,
+      5,
+      2,
+      1
+    ]
+},
+{
+  "ame":"marie",
+  "photo":"https://media.licd.com/mpr/mpr/shrikp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "scores":[
+      1,
+      2,
+      6,
+      5,
+      5,
+      1,
+      3,
+      5,
+      4,
+      2
+    ]
+},
+{
+  "ame":"dilae",
+  "photo":"https://media.licd.com/mpr/mpr/shrikp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "scores":[
+      3,
+      1,
+      6,
+      5,
+      5,
+      2,
+      2,
+      5,
+      4,
+      1
+    ]
+},
+{
+  "ame":"aziz",
+  "photo":"https://media.licd.com/mpr/mpr/shrikp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "scores":[
+      1,
+      2,
+      5,
+      4,
+      5,
+      1,
+      3,
+      5,
+      4,
+      2
+    ]
+},
+{
+  "ame":"sukar",
+  "photo":"https://media.licd.com/mpr/mpr/shrikp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "scores":[
+      5,
+      2,
+      1,
+      4,
+      5,
+      1,
+      3,
+      5,
+      4,
+      1
+    ]
+},
+{
+  "ame":"kadi",
+  "photo":"https://media.licd.com/mpr/mpr/shrikp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "scores":[
+      3,
+      4,
+      6,
+      4,
+      1,
+      1,
+      2,
+      3,
+      4,
+      1
+    ]
+},
+{
+  "ame":"fatima",
+  "photo":"https://media.licd.com/mpr/mpr/shrikp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "scores":[
+      3,
+      2,
+      6,
+      4,
+      2,
+      1,
+      5,
+      1,
+      6,
+      1
+    ]
+},
+{
+  "ame":"joh",
+  "photo":"https://media.licd.com/mpr/mpr/shrikp_400_400/p/6/005/064/1bd/3435aa3.jpg",
   "scores":[
       3,
       2,
@@ -34,8 +146,8 @@ var waitingArray=[
     ]
 },
 {
-  "name":"abdoul",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "ame":"abdoul",
+  "photo":"img1.jpg",
   "scores":[
       4,
       1,
@@ -51,6 +163,6 @@ var waitingArray=[
 }
 ]
   
-  // Note how we export the array. This makes it accessible to other files using require.
-  module.exports = waitingArray;
+  // ote how we export the array. This makes it accessible to other files usig require.
+  module.exports = friends;
   
