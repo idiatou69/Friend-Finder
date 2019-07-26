@@ -2,9 +2,9 @@
 
 var friends=[
 {
-  "ame":"Ahmed",
-  "photo":"https://media.licd.com/mpr/mpr/shrikp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-  "scores":[
+  name:"Ahmed",
+  photo:"/images/img1.jpg",
+  scores:[
       5,
       1,
       4,
@@ -18,9 +18,9 @@ var friends=[
     ]
 },
 {
-  "ame":"zizou",
-  "photo":"https://media.licd.com/mpr/mpr/shrikp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-  "scores":[
+  name:"zizou",
+  photo:"/images/img2.jpg",
+  scores:[
       3,
       2,
       6,
@@ -34,9 +34,9 @@ var friends=[
     ]
 },
 {
-  "ame":"marie",
-  "photo":"https://media.licd.com/mpr/mpr/shrikp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-  "scores":[
+  name:"marie",
+  photo:"/images/img3.jpg",
+  scores:[
       1,
       2,
       6,
@@ -50,9 +50,9 @@ var friends=[
     ]
 },
 {
-  "ame":"dilae",
-  "photo":"https://media.licd.com/mpr/mpr/shrikp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-  "scores":[
+  name:"dilae",
+  photo:"/images/img4.jpg",
+  scores:[
       3,
       1,
       6,
@@ -66,9 +66,9 @@ var friends=[
     ]
 },
 {
-  "ame":"aziz",
-  "photo":"https://media.licd.com/mpr/mpr/shrikp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-  "scores":[
+  name:"aziz",
+  photo:"/images/img5.jpg",
+  scores:[
       1,
       2,
       5,
@@ -82,9 +82,9 @@ var friends=[
     ]
 },
 {
-  "ame":"sukar",
-  "photo":"https://media.licd.com/mpr/mpr/shrikp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-  "scores":[
+  name:"sukar",
+  photo:"/images/img6.jpg",
+  scores:[
       5,
       2,
       1,
@@ -98,9 +98,9 @@ var friends=[
     ]
 },
 {
-  "ame":"kadi",
-  "photo":"https://media.licd.com/mpr/mpr/shrikp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-  "scores":[
+  name:"kadi",
+  photo:"/images/img7.jpg",
+  scores:[
       3,
       4,
       6,
@@ -114,9 +114,9 @@ var friends=[
     ]
 },
 {
-  "ame":"fatima",
-  "photo":"https://media.licd.com/mpr/mpr/shrikp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-  "scores":[
+  name:"fatima",
+  photo:"/images/img8.jpg",
+  scores:[
       3,
       2,
       6,
@@ -130,9 +130,9 @@ var friends=[
     ]
 },
 {
-  "ame":"joh",
-  "photo":"https://media.licd.com/mpr/mpr/shrikp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-  "scores":[
+  name:"joh",
+  photo:"/images/img9.jpg",
+  scores:[
       3,
       2,
       6,
@@ -146,9 +146,9 @@ var friends=[
     ]
 },
 {
-  "ame":"abdoul",
-  "photo":"img1.jpg",
-  "scores":[
+  name:"abdoul",
+  photo:"/images/img10.jpg",
+  scores:[
       4,
       1,
       5,

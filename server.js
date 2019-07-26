@@ -16,6 +16,12 @@ var app = express();
 // Sets an initial port. We"ll use this later in our listener
 var PORT = process.env.PORT || 8080;
 
+var path = require("path")
+
+// Use the express.static middleware to serve static content for the app from the "public" directory in the application directory.
+app.use(express.static(path.join(__dirname,"public")));
+
+
 // Sets up the Express app to handle data parsing
 // app.use(express.static("app/public"));
 app.use(express.urlencoded({ extended: true }));

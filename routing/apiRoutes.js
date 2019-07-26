@@ -41,19 +41,25 @@ module.exports = function (app) {
       for (var j = 0; j < userScore.length; j++) {
         scoreDiff += (Math.abs(parseInt(friendData[i].scores[j]) - parseInt(userScore[j])))
       }
-      scoresArr.push(scoreDiff);
-    }
-    for (var i = 0; i < scoresArr.length; i++) {
-      if (scoresArr[i] <= scoresArr[bestMatch]) {
-        bestMatch = i;
-      }
-    }
-    //return best match//
-    var soulMate = friendData[bestMatch];
-    res.json(soulMate);
+       
 
-    console.log(req.body);
+      scoresArr.push({
+        name: friendData[i].name,
+        totalDifference:  scoreDiff,
+        photo: friendData[i].photo
+      }) 
+    }
+    
+scoresArr.sort(function(a,b){
+       return a.totalDifference - b.totalDifference
+})
+console.log(scoresArr);
     friendData.push(req.body)
+    //return best match//
+     
+    res.json(scoresArr[0]);
+
+    
   });
 
   // app.post("/api/friend", function (req, res) {
