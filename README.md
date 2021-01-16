@@ -1,4 +1,5 @@
 # Friend-Finder
+<<<<<<< HEAD
 Welcome to my friend-finder Application if you like it please check out my Github Profile to see my repositories.
 
 friend-finder is a matching app. it has a survey question where it has two require input a name and image link and also it has 10 drops down buttons which you will fill and then submit it. then it will look for a match and display a name and an image.
@@ -45,3 +46,6 @@ after installing all your packages that I have mentioned earlier then you open y
 you do node server.js then you open the localhost 8080, then you fill all the require buttons. then it will return on your terminal like this
 ![return](./public/images/Capture.PNG)
 
+=======
+## https://idiatou-friend-finder-live.herokuapp.com/survey checkout the live app from heroku
+>>>>>>> f08d30310567248d284a200898e2ed8fd97f202c
